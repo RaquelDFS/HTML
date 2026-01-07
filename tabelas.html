@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabelas</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/128/2589/2589175.png"
+    />
+  </head>
+  <body>
+    <h1>Tabelas HTML</h1>
+<!-- INICIO DA TABELA -->
+    <!-- Nome da tabela -->
+    <caption>
+      Aprendendo Tabela
+    </caption>
+    <!-- Table inicia uma tabela -->
+    <table width="50%" border="1">
+      <!-- para cabeçalho, use TH table head ao invés de TD -->
+       <thead>
+         <tr>
+           <th>
+             <p>Nome</p>
+            </th>
+            <th>
+              <p>Idade</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+         <!-- TR é uma linha de mesa table row - linha-->
+         <tr>
+           <!-- TD é uma coluna table data -->
+           <td>
+             <p>Raquel</p>
+            </td>
+            <td>
+              <p>27 anos</p>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <!-- se tivesse um final ex total :  -->
+        </tfoot>
+      
+    </table>
+<!-- FIM DA TABELA -->
+    <p>
+      colspan serve para que uma célula pegue um numero x de espaço: 'th colspan
+      = "2" ' (Horizontal/ linha)
+    </p>
+    <p>
+      rowspan serve para que uma célula pegue um numero x de espaço: 'th rowspan
+      = "2" ' (vertical/coluna)
+    </p>
+
+    <!-- colgroup e col serve para estilizar a tabela  -->
+    <!-- por exemplo, se voce tiver uma tabela de 3 colunas, e quer que as primeiras 2 tenham a cor vermelha e as outras tenha a cor amarela, ficaria assim: -->
+    <table>
+    <colgroup>
+      <col span="2" style="background-color: red" />
+      <col style="background-color: yellow" />
+    </colgroup>
+  </body>
+</html>
