@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Links</title>
+  </head>
+  <body>
+    <h2>O atributo Target</h2>
+    <ul>
+      <li>
+        <p>
+          _self - Padrão. Abre o documento na mesma janela/aba em que foi
+          clicado.
+        </p>
+      </li>
+      <li>
+        <p>_blank- Abre o documento em uma nova janela ou aba.</p>
+      </li>
+    </ul>
+    <h3>Links dentro de Iframes:</h3>
+    <ul>
+      <li>
+        <p>_parent - abre o documento vinculado no frame do elemento pai</p>
+      </li>
+      <li>
+        <p>_top - abre o documento vinculado no corpo completo da janela.</p>
+      </li>
+    </ul>
+    <h2>Usando um framename</h2>
+    <p>
+      iframe <br />
+      src="inicio.html" <br />
+      name="conteudo" <br />
+      title="Área de conteúdo principal"<br />
+      /iframe<br />
+      nav <br />
+      a href="home.html" target="conteudo">Home <br />
+      a href="servicos.html" target="conteudo">Serviços <br />
+      a href="contato.html" target="conteudo">Contato <br />
+      /nav <br />
+    </p>
+
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <h2>Um link local (um link para uma página dentro do mesmo site)</h2>
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+    <h2>Balão de Dica!</h2>
+    <!-- é o title  -->
+    <a
+      href="https://www.w3schools.com/html/"
+      title="Go to W3Schools HTML section"
+      >Visit our HTML Tutorial</a
+    >
+    <h2>Ancoras</h2>
+    <p>O melhor é utilizando ID #</p>
+    <p>Você também pode adicionar um link para um marcador em outra página:</p>
+    <p>href="html_demo.html#C4">Jump to Chapter 4</p>
+  </body>
+</html>
